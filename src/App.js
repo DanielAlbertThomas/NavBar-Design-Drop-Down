@@ -1,10 +1,14 @@
-import "./styles.css";
+// src/App.js
+import React from "react";
+import Navbar from "./Navbar.jsx";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Navbar />
+      {/* Your other components/content here */}
     </div>
   );
 }
+
+export default App;
